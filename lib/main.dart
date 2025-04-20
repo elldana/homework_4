@@ -11,7 +11,9 @@ class MyApp extends StatelessWidget {
     required Color color,
     required double size,
     required String text,
-  }) {
+  })
+  {
+
     return Container(
       color: color,
       padding: const EdgeInsets.all(20),
